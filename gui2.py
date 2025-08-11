@@ -81,7 +81,7 @@ def video_frame_callback(frame: av.VideoFrame) -> av.VideoFrame:
 
     return av.VideoFrame.from_ndarray(img, format="bgr24")
 
-st.title("Sign Language Translator with Confidence Filtering ")
+st.title("Sign Language Translator")
 
 webrtc_streamer(
     key="asl-live",
